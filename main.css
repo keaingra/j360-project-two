@@ -11,10 +11,16 @@ h1 {
   font-size: 32px;
 }
 
-h2 {
+h3 {
   font-family: Verdana;
   color: #579797;
-  font-size: 24px;
+  font-size: 18px;
+}
+
+.column1of3, .column2of3, .column3of3 {
+  width: 300px;
+  float: left;
+  margin: 10px;
 }
 
 @media (min-width: 320px) {
@@ -29,10 +35,10 @@ h2 {
     color: #8FC1C1;
     font-size: 32px;
   }
-  h2 {
+  h3 {
     font-family: Verdana;
     color: #579797;
-    font-size: 24px;
+    font-size: 18px;
   }
 }
 
@@ -51,6 +57,6 @@ h2 {
   h2 {
     font-family: Verdana;
     color: #579797;
-    font-size: 24px;
+    font-size: 18px;
   }
 }
