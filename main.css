@@ -60,3 +60,22 @@ h3 {
     font-size: 18px;
   }
 }
+
+@media (min-width: 1024px) {
+  body {
+    background-color: white;
+    color: #368080;
+    font-family: Helvetica;
+    font-size: 18px;
+  }
+  h1 {
+    font-family: Arial;
+    color: #8FC1C1;
+    font-size: 34px;
+  }
+  h3 {
+    font-family: Verdana;
+    color: #579797;
+    font-size: 20px;
+  }
+}
