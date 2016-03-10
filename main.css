@@ -1,9 +1,8 @@
-.cloumn1of3, .column2of3, .column3of3 {
-  
+.container {
+  margin: 10px 4%;
 }
 
-
-@media (min-width: 480px) {
+@media (min-width: 320px) {
   body {
     background-color: white;
     color: #368080;
