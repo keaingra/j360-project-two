@@ -1,23 +1,44 @@
 .container {
   margin: 10px 4%;
 }
+.row {
+  width: 100%;
+  margin-bottom: 20px;
+  display: block;
+}
+.container::after, .row::after {
+  clear: both;
+  display: table;
+  content: "";
+}
+.col {
+  float: left;
+  display: block;
+}
+.col:last-child {
+  margin: 0;
+}
+.col-4 {
+  width: 100%;
+  margin-right: 0;
+}
 
 @media (min-width: 320px) {
   body {
     background-color: white;
     color: #368080;
     font-family: Helvetica;
-    font-size: 16px;
+    font-size: 100%;
   }
   h1 {
     font-family: Arial;
     color: #8FC1C1;
-    font-size: 32px;
+    font-size: 2em;
   }
   h2 {
     font-family: Verdana;
     color: #579797;
-    font-size: 24px;
+    font-size: 1.5em;
   }
 }
 
@@ -26,16 +47,25 @@
     background-color: white;
     color: #368080;
     font-family: Helvetica;
-    font-size: 24px;
+    font-size: 100%;
   }
   h1 {
     font-family: Arial;
     color: #8FC1C1;
-    font-size: 40px;
+    font-size: 2em;
   }
   h2 {
     font-family: Verdana;
     color: #579797;
-    font-size: 32px;
+    font-size: 1.5em;
+  }
+  .container {
+      width: 750px;
+      margin: 15px auto;
+  }
+
+  .col-4 {
+      width: 31.4666667%;
+      margin-right: 2.6666667%;
   }
 }
